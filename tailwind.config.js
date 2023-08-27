@@ -4,6 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      Prompt: ["Prompt"],
+      Poppins: ["Poppins"],
+    },
     fontSize: {
       sm: "0.8rem",
       base: "1rem",
